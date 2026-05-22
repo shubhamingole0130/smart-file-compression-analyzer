@@ -1,0 +1,3 @@
+/home/shubham/smart-file-compression-analyzer/build/CMakeFiles/compressor.dir
+/home/shubham/smart-file-compression-analyzer/build/CMakeFiles/edit_cache.dir
+/home/shubham/smart-file-compression-analyzer/build/CMakeFiles/rebuild_cache.dir

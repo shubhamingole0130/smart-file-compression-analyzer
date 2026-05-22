@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/shubham/smart-file-compression-analyzer/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
