@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/compressor.dir/src/FileManager.cpp.o.d"
   "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o"
   "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o.d"
+  "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o"
+  "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o.d"
   "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o"
   "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o.d"
   "CMakeFiles/compressor.dir/src/main.cpp.o"

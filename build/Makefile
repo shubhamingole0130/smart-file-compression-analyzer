@@ -177,6 +177,30 @@ src/FrequencyAnalyzer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.s
 .PHONY : src/FrequencyAnalyzer.cpp.s
 
+src/HuffmanCoder.o: src/HuffmanCoder.cpp.o
+.PHONY : src/HuffmanCoder.o
+
+# target to build an object file
+src/HuffmanCoder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o
+.PHONY : src/HuffmanCoder.cpp.o
+
+src/HuffmanCoder.i: src/HuffmanCoder.cpp.i
+.PHONY : src/HuffmanCoder.i
+
+# target to preprocess a source file
+src/HuffmanCoder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.i
+.PHONY : src/HuffmanCoder.cpp.i
+
+src/HuffmanCoder.s: src/HuffmanCoder.cpp.s
+.PHONY : src/HuffmanCoder.s
+
+# target to generate assembly for a file
+src/HuffmanCoder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.s
+.PHONY : src/HuffmanCoder.cpp.s
+
 src/HuffmanTree.o: src/HuffmanTree.cpp.o
 .PHONY : src/HuffmanTree.o
 
@@ -240,6 +264,9 @@ help:
 	@echo "... src/FrequencyAnalyzer.o"
 	@echo "... src/FrequencyAnalyzer.i"
 	@echo "... src/FrequencyAnalyzer.s"
+	@echo "... src/HuffmanCoder.o"
+	@echo "... src/HuffmanCoder.i"
+	@echo "... src/HuffmanCoder.s"
 	@echo "... src/HuffmanTree.o"
 	@echo "... src/HuffmanTree.i"
 	@echo "... src/HuffmanTree.s"

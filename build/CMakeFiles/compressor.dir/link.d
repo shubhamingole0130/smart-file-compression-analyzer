@@ -4,6 +4,7 @@ compressor: \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
   CMakeFiles/compressor.dir/src/FileManager.cpp.o \
   CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o \
+  CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o \
   CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o \
   CMakeFiles/compressor.dir/src/main.cpp.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/libstdc++.so \
@@ -44,6 +45,8 @@ compressor: \
 CMakeFiles/compressor.dir/src/FileManager.cpp.o:
 
 CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o:
+
+CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o:
 
 CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o:
 

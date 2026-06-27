@@ -100,10 +100,24 @@ CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shubham/smart-file-compression-analyzer/src/FrequencyAnalyzer.cpp -o CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.s
 
+CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o: CMakeFiles/compressor.dir/flags.make
+CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o: /home/shubham/smart-file-compression-analyzer/src/HuffmanCoder.cpp
+CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o: CMakeFiles/compressor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o -MF CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o.d -o CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o -c /home/shubham/smart-file-compression-analyzer/src/HuffmanCoder.cpp
+
+CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shubham/smart-file-compression-analyzer/src/HuffmanCoder.cpp > CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.i
+
+CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shubham/smart-file-compression-analyzer/src/HuffmanCoder.cpp -o CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.s
+
 CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o: CMakeFiles/compressor.dir/flags.make
 CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o: /home/shubham/smart-file-compression-analyzer/src/HuffmanTree.cpp
 CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o: CMakeFiles/compressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o -MF CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o.d -o CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o -c /home/shubham/smart-file-compression-analyzer/src/HuffmanTree.cpp
 
 CMakeFiles/compressor.dir/src/HuffmanTree.cpp.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/compressor.dir/src/HuffmanTree.cpp.s: cmake_force
 CMakeFiles/compressor.dir/src/main.cpp.o: CMakeFiles/compressor.dir/flags.make
 CMakeFiles/compressor.dir/src/main.cpp.o: /home/shubham/smart-file-compression-analyzer/src/main.cpp
 CMakeFiles/compressor.dir/src/main.cpp.o: CMakeFiles/compressor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compressor.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compressor.dir/src/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compressor.dir/src/main.cpp.o -MF CMakeFiles/compressor.dir/src/main.cpp.o.d -o CMakeFiles/compressor.dir/src/main.cpp.o -c /home/shubham/smart-file-compression-analyzer/src/main.cpp
 
 CMakeFiles/compressor.dir/src/main.cpp.i: cmake_force
@@ -132,6 +146,7 @@ CMakeFiles/compressor.dir/src/main.cpp.s: cmake_force
 compressor_OBJECTS = \
 "CMakeFiles/compressor.dir/src/FileManager.cpp.o" \
 "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o" \
+"CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o" \
 "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o" \
 "CMakeFiles/compressor.dir/src/main.cpp.o"
 
@@ -140,12 +155,13 @@ compressor_EXTERNAL_OBJECTS =
 
 compressor: CMakeFiles/compressor.dir/src/FileManager.cpp.o
 compressor: CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o
+compressor: CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o
 compressor: CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o
 compressor: CMakeFiles/compressor.dir/src/main.cpp.o
 compressor: CMakeFiles/compressor.dir/build.make
 compressor: CMakeFiles/compressor.dir/compiler_depend.ts
 compressor: CMakeFiles/compressor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable compressor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/shubham/smart-file-compression-analyzer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable compressor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compressor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
