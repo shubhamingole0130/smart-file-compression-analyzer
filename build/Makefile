@@ -129,6 +129,30 @@ compressor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/build
 .PHONY : compressor/fast
 
+src/CompressionEngine.o: src/CompressionEngine.cpp.o
+.PHONY : src/CompressionEngine.o
+
+# target to build an object file
+src/CompressionEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/CompressionEngine.cpp.o
+.PHONY : src/CompressionEngine.cpp.o
+
+src/CompressionEngine.i: src/CompressionEngine.cpp.i
+.PHONY : src/CompressionEngine.i
+
+# target to preprocess a source file
+src/CompressionEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/CompressionEngine.cpp.i
+.PHONY : src/CompressionEngine.cpp.i
+
+src/CompressionEngine.s: src/CompressionEngine.cpp.s
+.PHONY : src/CompressionEngine.s
+
+# target to generate assembly for a file
+src/CompressionEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/CompressionEngine.cpp.s
+.PHONY : src/CompressionEngine.cpp.s
+
 src/FileManager.o: src/FileManager.cpp.o
 .PHONY : src/FileManager.o
 
@@ -258,6 +282,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... compressor"
+	@echo "... src/CompressionEngine.o"
+	@echo "... src/CompressionEngine.i"
+	@echo "... src/CompressionEngine.s"
 	@echo "... src/FileManager.o"
 	@echo "... src/FileManager.i"
 	@echo "... src/FileManager.s"

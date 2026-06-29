@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/shubham/smart-file-compression-analyzer/src/CompressionEngine.cpp" "CMakeFiles/compressor.dir/src/CompressionEngine.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/CompressionEngine.cpp.o.d"
   "/home/shubham/smart-file-compression-analyzer/src/FileManager.cpp" "CMakeFiles/compressor.dir/src/FileManager.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/FileManager.cpp.o.d"
   "/home/shubham/smart-file-compression-analyzer/src/FrequencyAnalyzer.cpp" "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o.d"
   "/home/shubham/smart-file-compression-analyzer/src/HuffmanCoder.cpp" "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o.d"

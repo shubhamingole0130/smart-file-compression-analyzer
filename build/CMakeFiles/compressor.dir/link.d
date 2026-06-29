@@ -2,6 +2,7 @@ compressor: \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/Scrt1.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o \
   /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o \
+  CMakeFiles/compressor.dir/src/CompressionEngine.cpp.o \
   CMakeFiles/compressor.dir/src/FileManager.cpp.o \
   CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o \
   CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o \
@@ -41,6 +42,8 @@ compressor: \
 /usr/lib/gcc/x86_64-linux-gnu/15/../../../x86_64-linux-gnu/crti.o:
 
 /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o:
+
+CMakeFiles/compressor.dir/src/CompressionEngine.cpp.o:
 
 CMakeFiles/compressor.dir/src/FileManager.cpp.o:
 

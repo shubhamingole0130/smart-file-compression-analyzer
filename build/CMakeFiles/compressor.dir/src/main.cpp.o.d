@@ -161,6 +161,7 @@ CMakeFiles/compressor.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/basic_ios.tcc \
  /usr/include/c++/15/bits/ostream.tcc /usr/include/c++/15/istream \
  /usr/include/c++/15/bits/istream.tcc \
+ /home/shubham/smart-file-compression-analyzer/include/CompressionEngine.hpp \
  /home/shubham/smart-file-compression-analyzer/include/FileManager.hpp \
  /home/shubham/smart-file-compression-analyzer/include/FrequencyAnalyzer.hpp \
  /usr/include/c++/15/unordered_map \
