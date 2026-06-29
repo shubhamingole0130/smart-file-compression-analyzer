@@ -1,8 +1,9 @@
 #include <iostream>
-
+#include "CompressionEngine.hpp"
 #include "FileManager.hpp"
 #include "FrequencyAnalyzer.hpp"
 #include "HuffmanTree.hpp"
+#include "HuffmanCoder.hpp"
 
 int main() {
 
@@ -24,7 +25,49 @@ int main() {
                 frequencyTable
             );
 
-        HuffmanTree::printTree(root);
+        std::unordered_map<
+            char,
+            std::string
+        > huffmanCodes;
+
+        HuffmanCoder::generateCodes(
+            root,
+            "",
+            huffmanCodes
+        );
+
+        std::cout
+            << "Huffman Codes:\n";
+
+        for (const auto& pair :
+             huffmanCodes) {
+
+            std::cout
+                << pair.first
+                << " : "
+                << pair.second
+                << std::endl;
+        }
+
+        std::string encodedText =
+            HuffmanCoder::encodeText(
+                content,
+                huffmanCodes
+            );
+
+        std::cout
+            << "\nEncoded Text:\n";
+
+        std::cout
+            << encodedText
+            << std::endl;
+            CompressionEngine::
+saveCompressedFile(
+
+    encodedText,
+
+    "../data/output/compressed.huff"
+);
 
     } catch (const std::exception& error) {
 
