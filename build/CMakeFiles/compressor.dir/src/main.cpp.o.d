@@ -182,4 +182,5 @@ CMakeFiles/compressor.dir/src/main.cpp.o: \
  /usr/include/c++/15/bits/stl_queue.h \
  /home/shubham/smart-file-compression-analyzer/include/HuffmanNode.hpp \
  /home/shubham/smart-file-compression-analyzer/include/CompareNodes.hpp \
+ /home/shubham/smart-file-compression-analyzer/include/DecompressionEngine.hpp \
  /home/shubham/smart-file-compression-analyzer/include/HuffmanCoder.hpp

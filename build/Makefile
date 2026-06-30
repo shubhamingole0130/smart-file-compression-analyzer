@@ -153,6 +153,30 @@ src/CompressionEngine.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/CompressionEngine.cpp.s
 .PHONY : src/CompressionEngine.cpp.s
 
+src/DecompressionEngine.o: src/DecompressionEngine.cpp.o
+.PHONY : src/DecompressionEngine.o
+
+# target to build an object file
+src/DecompressionEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/DecompressionEngine.cpp.o
+.PHONY : src/DecompressionEngine.cpp.o
+
+src/DecompressionEngine.i: src/DecompressionEngine.cpp.i
+.PHONY : src/DecompressionEngine.i
+
+# target to preprocess a source file
+src/DecompressionEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/DecompressionEngine.cpp.i
+.PHONY : src/DecompressionEngine.cpp.i
+
+src/DecompressionEngine.s: src/DecompressionEngine.cpp.s
+.PHONY : src/DecompressionEngine.s
+
+# target to generate assembly for a file
+src/DecompressionEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/DecompressionEngine.cpp.s
+.PHONY : src/DecompressionEngine.cpp.s
+
 src/FileManager.o: src/FileManager.cpp.o
 .PHONY : src/FileManager.o
 
@@ -285,6 +309,9 @@ help:
 	@echo "... src/CompressionEngine.o"
 	@echo "... src/CompressionEngine.i"
 	@echo "... src/CompressionEngine.s"
+	@echo "... src/DecompressionEngine.o"
+	@echo "... src/DecompressionEngine.i"
+	@echo "... src/DecompressionEngine.s"
 	@echo "... src/FileManager.o"
 	@echo "... src/FileManager.i"
 	@echo "... src/FileManager.s"
