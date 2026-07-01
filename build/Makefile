@@ -273,6 +273,30 @@ src/HuffmanTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/HuffmanTree.cpp.s
 .PHONY : src/HuffmanTree.cpp.s
 
+src/Statistics.o: src/Statistics.cpp.o
+.PHONY : src/Statistics.o
+
+# target to build an object file
+src/Statistics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/Statistics.cpp.o
+.PHONY : src/Statistics.cpp.o
+
+src/Statistics.i: src/Statistics.cpp.i
+.PHONY : src/Statistics.i
+
+# target to preprocess a source file
+src/Statistics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/Statistics.cpp.i
+.PHONY : src/Statistics.cpp.i
+
+src/Statistics.s: src/Statistics.cpp.s
+.PHONY : src/Statistics.s
+
+# target to generate assembly for a file
+src/Statistics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/compressor.dir/build.make CMakeFiles/compressor.dir/src/Statistics.cpp.s
+.PHONY : src/Statistics.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... src/HuffmanTree.o"
 	@echo "... src/HuffmanTree.i"
 	@echo "... src/HuffmanTree.s"
+	@echo "... src/Statistics.o"
+	@echo "... src/Statistics.i"
+	@echo "... src/Statistics.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

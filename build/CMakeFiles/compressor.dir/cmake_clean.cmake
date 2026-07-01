@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o.d"
   "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o"
   "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o.d"
+  "CMakeFiles/compressor.dir/src/Statistics.cpp.o"
+  "CMakeFiles/compressor.dir/src/Statistics.cpp.o.d"
   "CMakeFiles/compressor.dir/src/main.cpp.o"
   "CMakeFiles/compressor.dir/src/main.cpp.o.d"
   "compressor"

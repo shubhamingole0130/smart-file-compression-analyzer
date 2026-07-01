@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/shubham/smart-file-compression-analyzer/src/FrequencyAnalyzer.cpp" "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/FrequencyAnalyzer.cpp.o.d"
   "/home/shubham/smart-file-compression-analyzer/src/HuffmanCoder.cpp" "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/HuffmanCoder.cpp.o.d"
   "/home/shubham/smart-file-compression-analyzer/src/HuffmanTree.cpp" "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/HuffmanTree.cpp.o.d"
+  "/home/shubham/smart-file-compression-analyzer/src/Statistics.cpp" "CMakeFiles/compressor.dir/src/Statistics.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/Statistics.cpp.o.d"
   "/home/shubham/smart-file-compression-analyzer/src/main.cpp" "CMakeFiles/compressor.dir/src/main.cpp.o" "gcc" "CMakeFiles/compressor.dir/src/main.cpp.o.d"
   "" "compressor" "gcc" "CMakeFiles/compressor.dir/link.d"
   )

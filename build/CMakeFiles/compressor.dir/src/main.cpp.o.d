@@ -183,4 +183,12 @@ CMakeFiles/compressor.dir/src/main.cpp.o: \
  /home/shubham/smart-file-compression-analyzer/include/HuffmanNode.hpp \
  /home/shubham/smart-file-compression-analyzer/include/CompareNodes.hpp \
  /home/shubham/smart-file-compression-analyzer/include/DecompressionEngine.hpp \
- /home/shubham/smart-file-compression-analyzer/include/HuffmanCoder.hpp
+ /home/shubham/smart-file-compression-analyzer/include/HuffmanCoder.hpp \
+ /home/shubham/smart-file-compression-analyzer/include/Statistics.hpp \
+ /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono.h \
+ /usr/include/c++/15/ratio /usr/include/c++/15/cstdint \
+ /usr/lib/gcc/x86_64-linux-gnu/15/include/stdint.h /usr/include/stdint.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
+ /usr/include/c++/15/limits /usr/include/c++/15/ctime \
+ /usr/include/c++/15/bits/parse_numbers.h

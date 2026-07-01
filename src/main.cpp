@@ -5,12 +5,17 @@
 #include "HuffmanTree.hpp"
 #include "DecompressionEngine.hpp"
 #include "HuffmanCoder.hpp"
+#include "Statistics.hpp"
 
+#include <chrono>
 int main()
 {
 
     try
     {
+        auto start =
+            std::chrono::
+                high_resolution_clock ::now();
 
         std::string content =
             FileManager::readFile(
@@ -84,6 +89,51 @@ int main()
             << decoded
 
             << std::endl;
+
+        auto end =
+
+            std::chrono::
+                high_resolution_clock ::now();
+
+        double timeTaken =
+
+            std::chrono::
+
+                duration_cast<
+                    std::chrono::
+                        milliseconds>
+
+            (
+                end -
+                start)
+
+                .count();
+
+        long original =
+
+            Statistics::
+
+                getFileSize(
+
+                    "../data/input/sample.txt");
+
+        long compressed =
+
+            Statistics::
+
+                getFileSize(
+
+                    "../data/output/compressed.huff");
+
+        Statistics::
+
+            showReport(
+
+                original,
+
+                compressed,
+
+                timeTaken);
     }
     catch (const std::exception &error)
     {
